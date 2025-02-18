@@ -6,6 +6,10 @@ import 'package:fluoro/Home.dart';
 import 'package:fluoro/common/Global.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+// import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:flutter/material.dart';
+// import 'package:hive/hive.dart';
+// import 'package:path_provider/path_provider.dart';
 import 'package:http/http.dart' as http;
 
 class Login extends StatefulWidget {
@@ -37,6 +41,16 @@ class LoginState extends State<Login> {
       _loginResult = json.decode(loginResponse.body);
 
       if (loginResponse.statusCode == 200) {
+        // const storage = FlutterSecureStorage();
+        // await storage.write(key: 'loginResult', value: _loginResult.toString());
+
+        // WidgetsFlutterBinding.ensureInitialized();
+        // final appDocumentDir = await getApplicationDocumentsDirectory();
+        // Hive.init(appDocumentDir.path);
+        // final box = await Hive.openBox('myBox');
+        // // 写入数据
+        // box.put('password', '123456');
+
         // 跳转入主页面
         Navigator.push(
           context,

@@ -7,7 +7,6 @@
     "alreadyHaveAccount": "已经有了账户？",
     "capitalizedSignIn": "登入",
     "capitalizedSignUp": "注册",
-    "skip": "跳过",
     "signInWelcome": "幸会",
     "username": "用户名",
     "password": "密码",
@@ -24,7 +23,7 @@
     "invitationCode": "邀请码(可选)",
     "enterValidInvitationCode": "请输入有效的邀请码",
     "wrongEmail": "请输入正确的邮箱",
-    "takenedUsername": "用户名已被占用",
+    "takenUsername": "用户名已被占用",
     "tooLongUsername": "用户名长度需在20字符以内",
     "tooShortPassword": "密码长度需大于6个字符",
     "invalidInvitationCode": "邀请码无效",
@@ -39,5 +38,6 @@
     "getDataFail": "数据请求失败",
     "popular": "热门",
     "categories": "分类",
-    "newest": "最新"
+    "newest": "最新",
+    "explore": "探索"
 }

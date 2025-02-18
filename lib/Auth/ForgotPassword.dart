@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:fluoro/Auth/Login.dart';
-import 'package:fluoro/Auth/Register.dart';
 import 'package:fluoro/common/Global.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

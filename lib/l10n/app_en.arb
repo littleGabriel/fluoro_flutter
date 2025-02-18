@@ -1,12 +1,12 @@
 {
   "welcomeTo": "Welcome to",
+  "skip": "skip",
   "appName": "Fluoro",
   "signUp": "Sign up",
   "signIn": "Log in",
   "alreadyHaveAccount": "Already have account?",
   "capitalizedSignIn": "SIGN IN",
   "capitalizedSignUp": "SIGN UP",
-  "skip": "skip",
   "signInWelcome": "Nice to see you",
   "username": "Username",
   "password": "Password",
@@ -38,5 +38,6 @@
   "getDataFail": "data request failed",
   "popular": "Popular now",
   "categories": "Categories",
-  "newest": "Newest"
+  "newest": "Newest",
+  "explore": "Explore"
 }

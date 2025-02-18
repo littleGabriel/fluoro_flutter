@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:fluoro/Home.dart';
 import 'package:fluoro/common/Global.dart';
 import 'package:flutter/material.dart';
+// import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import 'package:flutter_blurhash/flutter_blurhash.dart';
@@ -66,9 +67,24 @@ class _WelcomePagePageState extends State<WelcomePage> {
     }
   }
 
+  void checkSignStatus() async {
+    // const storage = FlutterSecureStorage();
+    // final loginResult = await storage.read(key: 'loginResult');
+    //
+    // if(loginResult != null) {
+    //   Navigator.push(
+    //     context,
+    //     MaterialPageRoute(builder: (context) =>
+    //         Home(loginResult: json.decode(loginResult))
+    //     ),
+    //   );
+    // }
+  }
+
   @override
   void initState() {
     super.initState();
+    checkSignStatus();
     getAppCover();
   }
 
